@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Places Visited</title>
+  </head>
+
+  <body>
+
+    <div class="container">  
+      <div class="form-group">
+        <h1>Travel Memories</h1>
+
+
+          <div class="row">
+          <div class="col-md-6">
+          <h2>Add a place:</h2>
+
+      <form id="new-place">
+          <label for="new-location">Location Name:</label>
+          <input id ="new-location" type="text" class="form-control">
+  </br> 
+          <label for="date">Date Visited:</label>
+          <input id="date" type="text" class="form-control">
+  </br>    
+          <button type="submit" class="btn btn-warning">Add it</button>
+
+      </form>
+
+  </br>
+
+     </div>
+     </div>
+
+    <div class="container">
+
+      <h2>Place List</h2>
+      <ul id="places"></ul>
+
+       <div id="show-place">
+       <h3></h3>
+       <p> <span class="new-location"></span></p>
+      <p><span class="date"></span></p>
+      </div>
+      </div>
+      </div>
+
+      </div>   
+</body>
+
+</html>
